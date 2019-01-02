@@ -1,0 +1,156 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to /home/cloudera/IdeaProjects/TwitterStream/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@6b75511 directly...[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:1: package com.google.common.collect does not exist[0m
+[0m[[31merror[0m] [0mimport com.google.common.collect.Lists;[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:2: package com.twitter.hbc does not exist[0m
+[0m[[31merror[0m] [0mimport com.twitter.hbc.ClientBuilder;[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:3: package com.twitter.hbc.core does not exist[0m
+[0m[[31merror[0m] [0mimport com.twitter.hbc.core.Client;[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:4: package com.twitter.hbc.core does not exist[0m
+[0m[[31merror[0m] [0mimport com.twitter.hbc.core.Constants;[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:5: package com.twitter.hbc.core does not exist[0m
+[0m[[31merror[0m] [0mimport com.twitter.hbc.core.Hosts;[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:6: package com.twitter.hbc.core does not exist[0m
+[0m[[31merror[0m] [0mimport com.twitter.hbc.core.HttpHosts;[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:7: package com.twitter.hbc.core.endpoint does not exist[0m
+[0m[[31merror[0m] [0mimport com.twitter.hbc.core.endpoint.StatusesFilterEndpoint;[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:8: package com.twitter.hbc.core.processor does not exist[0m
+[0m[[31merror[0m] [0mimport com.twitter.hbc.core.processor.StringDelimitedProcessor;[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:9: package com.twitter.hbc.httpclient.auth does not exist[0m
+[0m[[31merror[0m] [0mimport com.twitter.hbc.httpclient.auth.Authentication;[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:10: package com.twitter.hbc.httpclient.auth does not exist[0m
+[0m[[31merror[0m] [0mimport com.twitter.hbc.httpclient.auth.OAuth1;[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:11: package org.apache.kafka.clients.producer does not exist[0m
+[0m[[31merror[0m] [0mimport org.apache.kafka.clients.producer.*;[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:12: package org.apache.kafka.common.serialization does not exist[0m
+[0m[[31merror[0m] [0mimport org.apache.kafka.common.serialization.StringSerializer;[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:13: package org.slf4j does not exist[0m
+[0m[[31merror[0m] [0mimport org.slf4j.Logger;[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:14: package org.slf4j does not exist[0m
+[0m[[31merror[0m] [0mimport org.slf4j.LoggerFactory;[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:24: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Logger[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m    Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:64: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Client[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m    public Client createTwitterClient(BlockingQueue<String> msgQueue){[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:88: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class KafkaProducer[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m    public KafkaProducer<String, String> createKafkaProducer(){[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:24: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable LoggerFactory[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m    Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:34: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Client[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        Client client = createTwitterClient(msgQueue);[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:39: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class KafkaProducer[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        KafkaProducer<String, String> producer = createKafkaProducer();[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:53: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class ProducerRecord[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m                producer.send(new ProducerRecord<String, String>("twitter_tweets", null, msg), new Callback() {[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:53: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Callback[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m                producer.send(new ProducerRecord<String, String>("twitter_tweets", null, msg), new Callback() {[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:66: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Hosts[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        Hosts hosebirdHosts = new HttpHosts(Constants.STREAM_HOST);[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:66: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class HttpHosts[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        Hosts hosebirdHosts = new HttpHosts(Constants.STREAM_HOST);[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:66: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable Constants[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        Hosts hosebirdHosts = new HttpHosts(Constants.STREAM_HOST);[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:67: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class StatusesFilterEndpoint[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        StatusesFilterEndpoint hosebirdEndpoint = new StatusesFilterEndpoint();[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:67: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class StatusesFilterEndpoint[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        StatusesFilterEndpoint hosebirdEndpoint = new StatusesFilterEndpoint();[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:69: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable Lists[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        List<String> terms = Lists.newArrayList("bitcoin");[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:74: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Authentication[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        Authentication hosebirdAuth = new OAuth1("YxuWBwcv2vIwaGfJUXePRwOwk", "5FglQf8rZDo9o2rq3G2oRR3ST9i0IlllO8p6TS83ZwwKNvfifC",[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:74: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class OAuth1[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        Authentication hosebirdAuth = new OAuth1("YxuWBwcv2vIwaGfJUXePRwOwk", "5FglQf8rZDo9o2rq3G2oRR3ST9i0IlllO8p6TS83ZwwKNvfifC",[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:77: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class ClientBuilder[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        ClientBuilder builder = new ClientBuilder()[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:82: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class StringDelimitedProcessor[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m                .processor(new StringDelimitedProcessor(msgQueue));[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:77: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class ClientBuilder[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        ClientBuilder builder = new ClientBuilder()[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:84: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Client[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        Client hosebirdClient = builder.build();[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:93: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable ProducerConfig[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:94: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable ProducerConfig[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        properties.setProperty(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:94: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class StringSerializer[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        properties.setProperty(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:95: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable ProducerConfig[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        properties.setProperty(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:95: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class StringSerializer[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        properties.setProperty(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:98: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class KafkaProducer[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        KafkaProducer<String, String> producer = new KafkaProducer<String, String>(properties);[0m
+[0m[[31merror[0m] [0m/home/cloudera/IdeaProjects/TwitterStream/src/main/java/TwitterProducer.java:98: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class KafkaProducer[0m
+[0m[[31merror[0m] [0m  location: class TwitterProducer[0m
+[0m[[31merror[0m] [0m        KafkaProducer<String, String> producer = new KafkaProducer<String, String>(properties);[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) javac returned nonzero exit code[0m
